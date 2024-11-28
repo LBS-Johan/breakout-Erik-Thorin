@@ -19,12 +19,12 @@ public class PlayerMovement : MonoBehaviour
     {
         MyRigidbody.velocity = new Vector2(0,0);
 
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow) && transform.position.x < 7.55)
         {
             MyRigidbody.velocity = new Vector2(1, 0) * Speed;
         }
 
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow) && transform.position.x > -7.55)
         {
             MyRigidbody.velocity = new Vector2(-1, 0) * Speed;
         }
