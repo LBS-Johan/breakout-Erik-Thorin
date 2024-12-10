@@ -4,29 +4,29 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    Rigidbody2D MyRigidbody;
+    Rigidbody2D myRigidbody;
 
-    public int Speed;
+    public int speed;
 
     // Start is called before the first frame update
     void Start()
     {
-        MyRigidbody = GetComponent<Rigidbody2D>();
+        myRigidbody = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        MyRigidbody.velocity = new Vector2(0,0);
+        myRigidbody.velocity = new Vector2(0,0);
 
         if (Input.GetKey(KeyCode.RightArrow) && transform.position.x < 7.55)
         {
-            MyRigidbody.velocity = new Vector2(1, 0) * Speed;
+            myRigidbody.velocity = new Vector2(1, 0) * speed;
         }
 
         if (Input.GetKey(KeyCode.LeftArrow) && transform.position.x > -7.55)
         {
-            MyRigidbody.velocity = new Vector2(-1, 0) * Speed;
+            myRigidbody.velocity = new Vector2(-1, 0) * speed;
         }
     }
 }
