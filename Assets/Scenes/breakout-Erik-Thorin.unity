@@ -248,6 +248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8645c11a890a79841a8573d543d2a617, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ballRigidbody: {fileID: 0}
   speed: 10
   timer: 1.5
 --- !u!58 &11616743
@@ -4172,6 +4173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1095997817}
+  - component: {fileID: 1095997818}
   m_Layer: 0
   m_Name: Blocks
   m_TagString: Untagged
@@ -4238,6 +4240,19 @@ Transform:
   - {fileID: 901021761}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1095997818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095997816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70cd9011ba164ec418d45df9e1156755, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BlockParent: {fileID: 1095997816}
 --- !u!1 &1105644565
 GameObject:
   m_ObjectHideFlags: 0
@@ -7032,6 +7047,7 @@ GameObject:
   - component: {fileID: 1882159294}
   - component: {fileID: 1882159298}
   - component: {fileID: 1882159299}
+  - component: {fileID: 1882159300}
   m_Layer: 0
   m_Name: Player/Platform
   m_TagString: Untagged
@@ -7209,6 +7225,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreText: {fileID: 2040148908}
+--- !u!114 &1882159300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882159293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a72a260f18bf0234cbcd53329094ae70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1922787773
 GameObject:
   m_ObjectHideFlags: 0
