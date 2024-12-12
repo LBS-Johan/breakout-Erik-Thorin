@@ -248,6 +248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8645c11a890a79841a8573d543d2a617, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ballRigidbody: {fileID: 0}
   speed: 0
   timer: 0
 --- !u!58 &11616743
@@ -7343,7 +7344,6 @@ GameObject:
   - component: {fileID: 1776594279}
   - component: {fileID: 1776594278}
   - component: {fileID: 1776594277}
-  - component: {fileID: 1776594276}
   - component: {fileID: 1776594275}
   m_Layer: 5
   m_Name: MainMenu
@@ -7382,18 +7382,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 744fb556ef0985f4fa557fb02f21abb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1776594276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776594273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bda4775be1905b44099ae2c26a21188c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1776594277
@@ -7798,7 +7786,6 @@ GameObject:
   - component: {fileID: 1897228159}
   - component: {fileID: 1897228158}
   - component: {fileID: 1897228157}
-  - component: {fileID: 1897228160}
   - component: {fileID: 1897228161}
   m_Layer: 5
   m_Name: PlayAgain
@@ -7921,18 +7908,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897228155}
   m_CullTransparentMesh: 1
---- !u!114 &1897228160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1897228155}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bda4775be1905b44099ae2c26a21188c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1897228161
 MonoBehaviour:
   m_ObjectHideFlags: 0
